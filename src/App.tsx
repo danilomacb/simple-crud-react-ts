@@ -87,7 +87,7 @@ function App() {
   return (
     <Container className="mt-5">
       <Row>
-        {elements.map((element) => (
+        {elements && elements.map((element) => (
           <Col key={element._id} sm={6} md={4} lg={3} className="p-2">
             <InputGroup>
               <InputGroup.Prepend>
